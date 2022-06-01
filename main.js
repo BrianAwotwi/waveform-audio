@@ -6,7 +6,7 @@ var audioTrack = WaveSurfer.create({
     barHeight: 0.3
 });
 
-audioTrack.load('../audio/audio_sample.mp3');
+audioTrack.load('../audio/sample.mp3');
 
 const playBtn = document.querySelector(".play-btn");
 const stopBtn = document.querySelector(".stop-btn");
